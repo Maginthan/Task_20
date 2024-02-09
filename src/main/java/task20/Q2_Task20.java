@@ -33,7 +33,7 @@ public class Q2_Task20 {
 		driver.findElement(By.xpath("(//a[text()='Sign up'])[1]")).click();
 
 		// Filling all the details for Sing up form.
-		driver.findElement(By.className("form-control")).sendKeys("Dan Dan");
+		driver.findElement(By.id("name")).sendKeys("Dan Dan");
 		driver.findElement(By.id("email")).sendKeys("Daandan41@gmail.com");
 		driver.findElement(By.cssSelector("input#password")).sendKeys("DanDaan73");
 		driver.findElement(By.xpath("//input[@id='mobileNumber']")).sendKeys("9937849931");
